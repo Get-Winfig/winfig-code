@@ -296,6 +296,10 @@
     // =============================================
     "animations.Active": "Indent",
     "animations.Enabled": true,
+    "animations.Command-Palette": "Slide",
+    "animations.Scrolling": "Slide",
+    "animations.Tabs": "Scale",
+    "animations.UseCursorColorForCursorAnimation": true,
 
     // =============================================
     // EXTENSIONS - CUSTOM CSS/JS
