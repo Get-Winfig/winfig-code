@@ -1,0 +1,116 @@
+{
+    "recommendations": [
+
+        // ---------------------------------
+        // Must Install Extensions
+        // ---------------------------------
+        "Catppuccin.catppuccin-vsc",            // Catppuccin theme
+        "miguelsolorio.fluent-icons",           // Fluent Icons
+        "vscode-icons-team.vscode-icons",       // VSCode Icons
+        "BrandonKirbyson.vscode-animations",    // VSCode Animations
+        "be5invis.vscode-custom-css",           // Custom CSS and JS Loader
+
+        // ---------------------------------
+        // UI / Theming
+        // ---------------------------------
+        "tal7aouy.rainbow-bracket",             // Rainbow Brackets
+
+        // ---------------------------------
+        // Git / GitHub
+        // ---------------------------------
+        "eamodio.gitlens",                          // Git history, blame annotations
+        "github.codespaces",                        // GitHub Codespaces integration
+        "github.copilot",                           // GitHub Copilot AI suggestions
+        "github.copilot-chat",                      // Chat with Copilot
+        "piotrpalarz.vscode-gitignore-generator",   // Generate .gitignore files easily
+        "GitHub.vscode-pull-request-github",        // Github Pull Requests
+
+         // ---------------------------------
+        // Web / Node / PHP
+        // ---------------------------------
+        "christian-kohler.npm-intellisense",    // Autocomplete npm modules
+        "formulahendry.code-runner",            // Run snippets of code easily
+        "kamikillerto.vscode-colorize",         // Color preview for CSS/HEX
+        "bmewburn.vscode-intelephense-client",  // PHP IntelliSense
+        "devsense.phptools-vscode",             // Advanced PHP support
+        "xdebug.php-debug",                     // PHP Debugging
+        "neilbrayfield.php-docblocker",         // PHP DocBlock generator
+
+        // ---------------------------------
+        // Linting / Formatting
+        // ---------------------------------
+        "dbaeumer.vscode-eslint",               // JavaScript/TypeScript linting
+        "stylelint.vscode-stylelint",           // CSS/SCSS linting
+        "charliermarsh.ruff",                   // Python linting
+        "ms-python.black-formatter",            // Python code formatter
+        "ms-python.isort",                      // Python import sorter
+        "esbenp.prettier-vscode",               // Prettier formatter for multiple languages
+        "foxundermoon.shell-format",            // Shell script formatter
+        "davidanson.vscode-markdownlint",       // Markdown linting
+
+        // ---------------------------------
+        // Markdown / Docs / Files
+        // ---------------------------------
+        "shd101wyy.markdown-preview-enhanced",  // Advanced Markdown preview
+        "yzhang.markdown-all-in-one",           // Markdown productivity utilities
+        "tomoki1207.pdf",                       // PDF viewer
+        "vkrsi.code-screenshot",                // Take code screenshots
+        "bierner.markdown-mermaid",             // Mermaid diagrams in Markdown
+        "grapecity.gc-excelviewer",             // Excel viewer in VS Code
+        "shahilkumar.docxreader",               // Word & ODT file viewer
+        "bierner.emojisense",                   // Emoji autocompletion
+
+        // ---------------------------------
+        // Productivity / Utilities
+        // ---------------------------------
+        "gruntfuggly.todo-tree",                // Highlight TODOs, FIXMEs
+        "mechatroner.rainbow-csv",              // CSV highlighting
+        "oderwat.indent-rainbow",               // Rainbow indentation guides
+        "usernamehw.errorlens",                 // Show inline errors
+        "wix.vscode-import-cost",               // Check bundle/package sizes
+        "ms-toolsai.jupyter",                   // Jupyter notebook support
+        "ms-vscode-remote.remote-containers",   // Dev container integration
+
+        // ---------------------------------
+        // Web / Frontend / HTML / CSS / JS
+        // ---------------------------------
+        "bradlc.vscode-tailwindcss",        // TailwindCSS IntelliSense
+        "pranaygp.vscode-css-peek",         // Jump to CSS definitions
+        "ecmel.vscode-html-css",            // HTML/CSS IntelliSense
+        "ritwickdey.liveserver",            // Live Server for static sites
+        "formulahendry.auto-rename-tag",    // Auto rename HTML/XML tags
+        "xabikos.javascriptsnippets",       // JS code snippets
+
+        // ---------------------------------
+        // Python
+        // ---------------------------------
+        "ms-python.python",                  // Python language support
+        "ms-python.vscode-pylance",          // Fast Python IntelliSense
+        "kevinrose.vsc-python-indent",       // Python indentation helper
+
+        // ---------------------------------
+        // C / C++
+        // ---------------------------------
+        "ms-vscode.cpptools",                // C/C++ language support
+        "ms-vscode.makefile-tools",          // Makefile integration
+        "twxs.cmake",                        // CMake syntax support
+        "ms-vscode.cmake-tools",             // CMake project tools
+        "ms-vscode.cpptools-extension-pack", // Additional C/C++ tools
+
+        // ---------------------------------
+        // Go / Hugo Templates
+        // ---------------------------------
+        "golang.go",                                 // Go language support
+        "visualstudioexptteam.vscodeintellicode",    // AI IntelliCode support for Go
+        "budparr.language-hugo-vscode",              // Hugo syntax
+
+        // ---------------------------------
+        // YAML / JSON / TOML / XML
+        // ---------------------------------
+        "redhat.vscode-yaml",               // YAML language support + validation
+        "esbenp.prettier-vscode",           // JSON/YAML/TOML formatting
+        "DotJoshJohnson.xml",               // XML support
+        "ZainChen.json",                    // JSON language support
+        "be5invis.toml"                     // TOML language support
+    ]
+}
