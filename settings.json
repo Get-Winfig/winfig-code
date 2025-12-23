@@ -1,0 +1,464 @@
+{
+    // =============================================
+    // WINDOW & TITLE BAR
+    // =============================================
+    "window.title": "${activeEditorShort}${separator}${activeEditorState}${separator}${activeRepositoryBranchName}",
+    "window.titleSeparator": "  ✧  ",
+    "window.zoomLevel": 0,
+    "window.titleBarStyle": "custom",
+    "window.menuBarVisibility": "toggle",
+    "window.density.editorTabHeight": "compact",
+
+    // =============================================
+    // APPEARANCE & THEME
+    // =============================================
+    "workbench.colorTheme": "Catppuccin Macchiato",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.productIconTheme": "fluent-icons",
+
+    // =============================================
+    // WORKBENCH & UI
+    // =============================================
+    "workbench.sideBar.location": "left",
+    "workbench.statusBar.visible": true,
+    "workbench.startupEditor": "none",
+    "workbench.layoutControl.enabled": false,
+    "workbench.navigationControl.enabled": false,
+    "workbench.activityBar.iconClickBehavior": "toggle",
+    "workbench.tips.enabled": false,
+    "workbench.list.smoothScrolling": true,
+    "workbench.editor.decorations.badges": false,
+    "workbench.editor.decorations.colors": false,
+    "workbench.editor.editorActionsLocation": "default",
+
+    // =============================================
+    // EDITOR - LAYOUT & TABS
+    // =============================================
+    "workbench.editor.showTabs": "none",
+    "workbench.editor.enablePreview": false,
+
+    // =============================================
+    // EXPLORER & TREE VIEW
+    // =============================================
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.tree.enableStickyScroll": false,
+    "workbench.tree.indent": 16,
+    "workbench.tree.expandMode": "singleClick",
+    "explorer.confirmDragAndDrop": false,
+    "explorer.confirmDelete": false,
+    "explorer.compactFolders": false,
+    "explorer.decorations.badges": false,
+    "breadcrumbs.enabled": false,
+
+    // =============================================
+    // EDITOR - FONT & TYPOGRAPHY
+    // =============================================
+    "editor.fontFamily": "Fira Code, Hack Nerd Font, 'Courier New', monospace",
+    "editor.fontSize": 13.8,
+    "editor.fontWeight": "normal",
+    "editor.lineHeight": 1.7,
+    "editor.letterSpacing": 0.5,
+    "editor.fontLigatures": "calt, liga, dlig",
+    "editor.fontVariations": true,
+    "editor.unicodeHighlight.ambiguousCharacters": false,
+    "editor.unicodeHighlight.invisibleCharacters": false,
+
+    // =============================================
+    // EDITOR - BEHAVIOR
+    // =============================================
+    "editor.tabSize": 4,
+    "editor.detectIndentation": true,
+    "editor.wordWrap": "off",
+    "editor.autoIndent": "full",
+    "editor.autoClosingBrackets": "languageDefined",
+    "editor.autoSurround": "languageDefined",
+    "editor.autoClosingQuotes": "languageDefined",
+    "editor.autoClosingOvertype": "auto",
+    "editor.matchBrackets": "always",
+    "editor.multiCursorModifier": "alt",
+    "editor.multiCursorMergeOverlapping": true,
+
+    // =============================================
+    // EDITOR - FORMATTING & SAVING
+    // =============================================
+    "editor.formatOnPaste": false,
+    "editor.formatOnType": false,
+    "editor.formatOnSave": false,
+    "editor.trimAutoWhitespace": false,
+    "editor.codeActions.triggerOnFocusChange": true,
+
+    // =============================================
+    // EDITOR - CURSOR & SELECTION
+    // =============================================
+    "editor.cursorBlinking": "smooth",
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "editor.cursorStyle": "underline",
+    "editor.cursorWidth": 2,
+    "editor.selectionHighlight": true,
+    "editor.occurrencesHighlight": "singleFile",
+
+    // =============================================
+    // EDITOR - VISUALS & RENDERING
+    // =============================================
+    "editor.renderControlCharacters": true,
+    "editor.renderFinalNewline": "on",
+    "editor.renderWhitespace": "selection",
+    "editor.renderLineHighlight": "gutter",
+    "editor.colorDecorators": false,
+    "editor.links": true,
+    "editor.largeFileOptimizations": false,
+
+    // =============================================
+    // EDITOR - BRACKETS & GUIDES
+    // =============================================
+    "editor.bracketPairColorization.enabled": true,
+    "editor.bracketPairColorization.independentColorPoolPerBracketType": true,
+    "editor.guides.bracketPairs": "active",
+    "editor.guides.bracketPairsHorizontal": true,
+    "editor.guides.highlightActiveBracketPair": true,
+    "editor.guides.indentation": true,
+
+    // =============================================
+    // EDITOR - MINIMAP
+    // =============================================
+    "editor.minimap.enabled": true,
+    "editor.minimap.autohide": "mouseover",
+    "editor.minimap.size": "fill",
+    "editor.minimap.renderCharacters": false,
+
+    // =============================================
+    // EDITOR - SCROLLING
+    // =============================================
+    "editor.smoothScrolling": true,
+    "editor.scrollBeyondLastLine": false,
+    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.vertical": "hidden",
+    "editor.overviewRulerBorder": false,
+
+    // =============================================
+    // EDITOR - HOVER & TOOLTIPS
+    // =============================================
+    "editor.hover.enabled": "on",
+    "editor.lightbulb.enabled": "onCode",
+    "editor.showFoldingControls": "mouseover",
+    "editor.stickyScroll.enabled": false,
+
+    // =============================================
+    // EDITOR - FIND & SEARCH
+    // =============================================
+    "editor.find.seedSearchStringFromSelection": "always",
+    "editor.find.autoFindInSelection": "never",
+
+    // =============================================
+    // EDITOR - AI & SUGGESTIONS
+    // =============================================
+    "editor.inlineSuggest.enabled": true,
+    "editor.inlineSuggest.showToolbar": "always",
+    "editor.aiStats.enabled": true,
+
+    // =============================================
+    // TERMINAL - GENERAL
+    // =============================================
+    "terminal.integrated.fontFamily": "JetBrains Mono, Fira Code, Hack Nerd Font, San Serif Collection, monospace",
+    "terminal.integrated.fontSize": 13,
+    "terminal.integrated.lineHeight": 1.4,
+    "terminal.integrated.fontLigatures.enabled": true,
+    "terminal.integrated.scrollback": 10000,
+
+    // =============================================
+    // TERMINAL - CURSOR
+    // =============================================
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorWidth": 2,
+
+    // =============================================
+    // TERMINAL - TABS
+    // =============================================
+    "terminal.integrated.tabs.enabled": true,
+    "terminal.integrated.tabs.showActiveTerminal": "always",
+    "terminal.integrated.tabs.hideCondition": "singleTerminal",
+    "terminal.integrated.tabs.title": "name",
+    "terminal.integrated.tabs.focusMode": "singleClick",
+
+    // =============================================
+    // TERMINAL - BEHAVIOR
+    // =============================================
+    "terminal.integrated.confirmOnExit": "hasChildProcesses",
+    "terminal.integrated.mouseWheelScrollSensitivity": 1,
+    "terminal.integrated.fastScrollSensitivity": 5,
+    "terminal.integrated.enableVisualBell": true,
+
+    // =============================================
+    // GIT & VERSION CONTROL
+    // =============================================
+    "git.decorations.enabled": true,
+    "git.enableSmartCommit": true,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.suggestSmartCommit": true,
+    "git.enableCommitSigning": true,
+    "git.allowForcePush": true,
+    "git.ignoreMissingGitWarning": false,
+    "scm.diffDecorations": "all",
+
+    // =============================================
+    // GITLENS
+    // =============================================
+    "gitlens.hovers.currentLine.over": "line",
+    "gitlens.hovers.annotations.over": "line",
+
+    // =============================================
+    // FILES & FOLDERS
+    // =============================================
+    "files.insertFinalNewline": true,
+    "files.trimTrailingWhitespace": true,
+    "files.autoSave": "off",
+    "files.hotExit": "onExitAndWindowClose",
+    "files.encoding": "utf8",
+    "files.autoGuessEncoding": false,
+
+    // =============================================
+    // FILES - EXCLUDE PATTERNS
+    // =============================================
+    "files.exclude": {
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/node_modules": true,
+        "**/.git": false,
+        "**/.idea": true,
+        "**/__pycache__": true,
+        "**/*.pyc": true,
+        "**/*.pyo": true,
+        "**/*.exe": true,
+        "**/*.dll": true,
+        "**/*.obj": true,
+        "**/*.o": true,
+        "**/*.a": true,
+        "**/*.lock.json": true,
+        "**/*.log": true,
+        "**/*.tmp": true
+    },
+
+    // =============================================
+    // SEARCH
+    // =============================================
+    "search.useIgnoreFiles": true,
+    "search.useGlobalIgnoreFiles": true,
+    "search.followSymlinks": true,
+    "search.smartCase": false,
+    "search.showLineNumbers": true,
+    "search.collapseResults": "auto",
+    "search.exclude": {
+        "**/node_modules": true,
+        "**/bower_components": true,
+        "**/*.code-search": true,
+        "**/dist": true,
+        "**/build": true,
+        "**/public": true,
+        "**/.git": true,
+        "**/.hg": true
+    },
+
+    // =============================================
+    // DEBUG
+    // =============================================
+    "debug.console.fontSize": 13,
+    "debug.console.lineHeight": 1.4,
+    "debug.showInStatusBar": "always",
+
+    // =============================================
+    // ACCESSIBILITY
+    // =============================================
+    "editor.accessibilitySupport": "off",
+    "editor.mouseWheelZoom": false,
+    "accessibility.signals.terminalBell": {
+        "sound": "on"
+    },
+
+    // =============================================
+    // DIFF EDITOR
+    // =============================================
+    "diffEditor.ignoreTrimWhitespace": true,
+
+    // =============================================
+    // EXTENSIONS
+    // =============================================
+    "extensions.ignoreRecommendations": true,
+
+    // =============================================
+    // EXTENSIONS - RAINBOW BRACKETS
+    // =============================================
+    "RainbowBrackets.depreciation-notice": false,
+
+    // =============================================
+    // EXTENSIONS - ANIMATIONS
+    // =============================================
+    "animations.Active": "Indent",
+    "animations.Enabled": true,
+
+    // =============================================
+    // EXTENSIONS - CUSTOM CSS/JS
+    // =============================================
+    "vscode_custom_css.imports": [
+        "file:///${env:USERPROFILE}/.Dotfiles/winfig-code/assets/custom.css",
+        "file:///${env:USERPROFILE}/.Dotfiles/winfig-code/assets/custom.js"
+    ],
+
+    // =============================================
+    // AI & COPILOT
+    // =============================================
+    "github.copilot.enable": {
+        "*": true,
+        "scminput": false,
+        "env": false,
+        "log": false,
+        "ini": false,
+        "csv": false,
+        "tsv": false,
+        "ignore": false,
+        "properties": false,
+        "plaintext": false
+    },
+    "github.copilot.advanced": {
+        "authProvider": "github",
+        "inlineSuggest.enable": true,
+        "inlineSuggest.showIcon": true,
+        "suggestionDelay": 15,
+        "telemetry": {
+            "enabled": false,
+            "sendUsername": false,
+            "sendEmail": false,
+            "sendExtensions": false,
+            "sendOS": false,
+            "sendLocale": false,
+            "sendEditorVersion": false,
+            "sendSessionId": false,
+            "sendMachineId": false
+        },
+        "useCodeSnippetsOnly": false
+    },
+    "github.copilot.nextEditSuggestions.enabled": true,
+
+    // =============================================
+    // CHAT & COLLABORATION
+    // =============================================
+    "chat.commandCenter.enabled": false,
+
+    // =============================================
+    // SECURITY & PRIVACY
+    // =============================================
+    "security.workspace.trust.enabled": false,
+    "telemetry.telemetryLevel": "off",
+    "update.mode": "manual",
+
+    // =============================================
+    //  Editor Tokens Color Customizations
+    // =============================================
+    "editor.tokenColorCustomizations": {
+        "textMateRules": [
+            {
+                "scope": "comment",
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": "emphasis",
+                "settings": {
+                    "fontStyle": "italic"
+                }
+            },
+            {
+                "scope": "strong",
+                "settings": {
+                    "fontStyle": "bold"
+                }
+            },
+            {
+                "scope": "entity.name.function",
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": "entity.name.type, entity.name.class",
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": "constant.numeric",
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            },
+            {
+                "scope": "support.type.property-name.json",
+                "settings": {
+                    "fontStyle": "italic bold"
+                }
+            }
+        ]
+    },
+
+    "editor.semanticTokenColorCustomizations": {
+        "enabled": true,
+        "rules": {
+            "*.readonly": {
+                "fontStyle": "underline"
+            },
+            "*.async": {
+                "fontStyle": "italic"
+            },
+            "parameter": {
+                "fontStyle": "italic"
+            },
+            "class": {
+                "fontStyle": "bold"
+            },
+            "interface": {
+                "fontStyle": "bold"
+            },
+            "enum": {
+                "fontStyle": "bold"
+            },
+            "typeParameter": {
+                "fontStyle": "bold"
+            },
+            "function": {
+                "fontStyle": "bold"
+            },
+            "method": {
+                "fontStyle": "bold"
+            },
+            "*.deprecated": {
+                "fontStyle": "strikethrough"
+            },
+            "decorator": {
+                "fontStyle": "bold"
+            },
+            "property.readonly": {
+                "fontStyle": "underline italic"
+            },
+            "namespace": {
+                "fontStyle": "italic"
+            },
+            "variable.readonly": {
+                "fontStyle": "underline"
+            },
+            "variable": {
+                "fontStyle": "italic"
+            },
+            "parameter.readonly": {
+                "fontStyle": "underline italic"
+            },
+            "label": {
+                "fontStyle": "italic"
+            },
+            "comment": {
+                "fontStyle": "italic bold"
+            }
+        }
+    }
+}
