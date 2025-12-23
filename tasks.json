@@ -1,0 +1,381 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+
+        // -----------------
+        // Git
+        // -----------------
+        {
+            "label": "Git Init",
+            "type": "shell",
+            "isBackground": true,
+            "command": "git",
+            "args": [
+                "init"
+            ]
+        },
+        {
+            "label": "Git Pull",
+            "type": "shell",
+            "isBackground": false,
+            "command": "git",
+            "args": [
+                "pull"
+            ]
+        },
+        {
+            "label": "Git Fetch",
+            "type": "shell",
+            "isBackground": true,
+            "command": "git",
+            "args": [
+                "fetch"
+            ]
+        },
+        {
+            "label": "Git Push",
+            "type": "shell",
+            "isBackground": false,
+            "command": "git",
+            "args": [
+                "push"
+            ]
+        },
+
+        // -----------------
+        // Node / JS
+        // -----------------
+        {
+            "label": "Npm Install",
+            "type": "shell",
+            "isBackground": false,
+            "command": "npm",
+            "args": [
+                "install"
+            ]
+        },
+        {
+            "label": "Pnpm Install",
+            "type": "shell",
+            "isBackground": false,
+            "command": "pnpm",
+            "args": [
+                "install"
+            ]
+        },
+        {
+            "label": "Npm Audit Fix",
+            "type": "shell",
+            "isBackground": false,
+            "command": "npm",
+            "args": [
+                "audit",
+                "fix"
+            ]
+        },
+        {
+            "label": "Node Run Start",
+            "type": "shell",
+            "isBackground": false,
+            "command": "npm",
+            "args": [
+                "run",
+                "start"
+            ]
+        },
+        {
+            "label": "Node Run Dev",
+            "type": "shell",
+            "isBackground": false,
+            "command": "npm",
+            "args": [
+                "run",
+                "dev"
+            ]
+        },
+        {
+            "label": "Node Run Build",
+            "type": "shell",
+            "isBackground": false,
+            "command": "npm",
+            "args": [
+                "run",
+                "build"
+            ]
+        },
+
+        // -----------------
+        // NVM (Node Version Manager)
+        // -----------------
+        {
+            "label": "NVM Use Node Version",
+            "type": "shell",
+            "isBackground": false,
+            "command": "nvm",
+            "args": [
+                "use",
+                "${input:nodeVersion}"
+            ]
+        },
+        {
+            "label": "NVM Install Node Version",
+            "type": "shell",
+            "isBackground": false,
+            "command": "nvm",
+            "args": [
+                "install",
+                "${input:nodeVersion}"
+            ]
+        },
+        {
+            "label": "NVM List Installed Versions",
+            "type": "shell",
+            "isBackground": false,
+            "command": "nvm",
+            "args": [
+                "list"
+            ]
+        },
+
+        // -----------------
+        // Go
+        // -----------------
+        {
+            "label": "Go Mod Init",
+            "type": "shell",
+            "isBackground": true,
+            "command": "go",
+            "args": [
+                "mod",
+                "init",
+                "${input:moduleName}"
+            ]
+        },
+        {
+            "label": "Go Mod Tidy",
+            "type": "shell",
+            "isBackground": true,
+            "command": "go",
+            "args": [
+                "mod",
+                "tidy"
+            ]
+        },
+
+        // -----------------
+        // Python
+        // -----------------
+        {
+            "label": "Pip Install Requirements",
+            "type": "shell",
+            "isBackground": false,
+            "command": "pip",
+            "args": [
+                "install",
+                "-r",
+                "requirements.txt"
+            ]
+        },
+        {
+            "label": "Pip Freeze",
+            "type": "shell",
+            "isBackground": true,
+            "command": "pip",
+            "args": [
+                "freeze",
+                ">",
+                "requirements.txt"
+            ]
+        },
+        {
+            "label": "Python Venv Create",
+            "type": "shell",
+            "isBackground": true,
+            "command": "python",
+            "args": [
+                "-m",
+                "venv",
+                ".venv"
+            ]
+        },
+
+        // -----------------
+        // UV (Ultra Fast Python Package Installer)
+        // -----------------
+        {
+            "label": "UV Install Requirements",
+            "type": "shell",
+            "isBackground": false,
+            "command": "uv",
+            "args": [
+                "pip",
+                "install",
+                "-r",
+                "requirements.txt"
+            ]
+        },
+        {
+            "label": "UV Freeze",
+            "type": "shell",
+            "isBackground": true,
+            "command": "uv",
+            "args": [
+                "pip",
+                "freeze",
+                ">",
+                "requirements.txt"
+            ]
+        },
+
+        // -----------------
+        // Hugo
+        // -----------------
+        {
+            "label": "Hugo New Site",
+            "type": "shell",
+            "isBackground": true,
+            "command": "hugo",
+            "args": [
+                "new",
+                "site",
+                "${input:siteName}"
+            ]
+        },
+        {
+            "label": "Hugo New Post",
+            "type": "shell",
+            "isBackground": true,
+            "command": "hugo",
+            "args": [
+                "new",
+                "posts/${input:postName}.md"
+            ]
+        },
+        {
+            "label": "Hugo Server",
+            "type": "shell",
+            "isBackground": false,
+            "command": "hugo",
+            "args": [
+                "server",
+                "-D"
+            ]
+        },
+        {
+            "label": "Hugo Build",
+            "type": "shell",
+            "isBackground": false,
+            "command": "hugo",
+            "args": []
+        },
+        {
+            "label": "Hugo Mod Init",
+            "type": "shell",
+            "isBackground": true,
+            "command": "hugo",
+            "args": [
+                "mod",
+                "init",
+                "${input:moduleName}"
+            ]
+        },
+        {
+            "label": "Hugo Mod Tidy",
+            "type": "shell",
+            "isBackground": true,
+            "command": "hugo",
+            "args": [
+                "mod",
+                "tidy"
+            ]
+        },
+        {
+            "label": "Hugo Mod Get",
+            "type": "shell",
+            "isBackground": false,
+            "command": "hugo",
+            "args": [
+                "mod",
+                "get"
+            ]
+        },
+
+        // -----------------
+        // Browser Preview
+        // -----------------
+        {
+            "label": "Open in Browser",
+            "type": "shell",
+            "command": "start",
+            "args": [
+                "http://localhost:${input:browserPort}"
+            ],
+            "isBackground": false,
+            "problemMatcher": []
+        },
+        {
+            "label": "Open Current File in Browser",
+            "type": "shell",
+            "command": "start",
+            "args": [
+                "${file}"
+            ],
+            "isBackground": false,
+            "problemMatcher": []
+        },
+        {
+            "label": "Open Project Folder in Browser",
+            "type": "shell",
+            "command": "start",
+            "args": [
+                "${workspaceFolder}/index.html"
+            ],
+            "isBackground": false,
+            "problemMatcher": []
+        },
+        {
+            "label": "Open Custom URL",
+            "type": "shell",
+            "command": "start",
+            "args": [
+                "${input:customUrl}"
+            ],
+            "isBackground": false,
+            "problemMatcher": []
+        }
+    ],
+    "inputs": [
+        {
+            "id": "moduleName",
+            "type": "promptString",
+            "description": "Enter Go module name"
+        },
+        {
+            "id": "siteName",
+            "type": "promptString",
+            "description": "Enter Hugo site name"
+        },
+        {
+            "id": "postName",
+            "type": "promptString",
+            "description": "Enter Hugo post name"
+        },
+        {
+            "id": "nodeVersion",
+            "type": "promptString",
+            "description": "Enter Node.js version (e.g., 18.16.0)"
+        },
+        {
+            "id": "browserPort",
+            "type": "promptString",
+            "description": "Enter the port to open in browser (e.g., 3000)",
+            "default": "3000"
+        },
+        {
+            "id": "customUrl",
+            "type": "promptString",
+            "description": "Enter the URL to open in browser",
+            "default": "https://Get-Winfig.github.io/winfig-docs/"
+        }
+    ]
+}
